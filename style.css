@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{   font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+
+/*Estilização Header*/
+.navbar {
+    margin: -30px;
+}
+#logo{
+    width: 128px;
+}
+
+#mynav ul li a {
+    margin-left: 90px;
+    font-weight: bold;
+    transition: all 0.7s;
+}
+
+#mynav ul li a:hover {
+    color: #ffc107;
+}
+
+header{
+    background-color: #fbec5d;
+}
+
+/*Estilização Pesquisa*/
+#data{
+background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgb(255, 255, 255));
+text-align: center;
+}
+
+.busca{
+    max-height: 100px;
+    background-color: lightyellow;
+    max-height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+#ida{
+    color: darkgray;
+}
+
+#volta{
+    color: darkgray;
+}
+
+.campo{
+    color: black;
+}
+h4{
+    color: #0d6efd; 
+}
+
+input{
+    border: solid 1px gray;
+    margin-bottom: 10px;
+    border-radius: 5px ;
+}
+
+
+/*Estilização Promo*/
+.card-deck{
+    display: flex;
+    padding: 5px;
+    
+}
+
+.card-footer{
+    margin: 0 auto;
+    background-color: #fff;
+    border: none;
+
+}
+
+.card-footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+.card-img-top:hover{
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.card-des{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.promo{
+    color: red;
+    font-size: 20px;
+    font-style: oblique;
+    list-style: none;
+}
+
+/*Estilização Contato*/
+h4{
+    text-align: center;
+    color: white;
+    background-color: #ffc107;
+}
+
+.principais{
+    text-align: center;
+    color: white;
+    background-color: #ffc107;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+.planeja{
+    text-align: center;
+    color: #0d6efd;
+}
+form{
+display: grid;
+}
+
+.form-row{
+    margin: 0 auto;
+    display: block;
+    width: 50;
+    height: auto;
+}
+
+.form-row:hover{
+    opacity: 80%;
+}
+
+.form-control{
+    width: auto;
+}
+
+/*Estilização Footer*/
+footer {
+    background: #353535f6;
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.about {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.about img {
+    max-width: 100px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.links a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.links a:hover {
+    color: #c9dd13;
+}
+
+.midias {
+    color: darkgray;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.midias a i {
+    font-size: 1.5rem;
+    margin: 4px;
+    color: #c9dd13;
+}
+
+
+@media (max-width: 993px){
+header {
+    margin: 0 auto;
+}
+
+#logo{
+    margin-left: 112px;
+    width: 100px;
+}
+
+#data{
+    margin: 0 auto;
+    width: 400px;
+}
+
+#principais{
+    margin-top: 0;
+}
+.principais{
+    margin-top: 125px;
+}
+
+footer{
+    width: 375px;
+    height: 375px;
+    flex-direction:column;
+    padding: 40px;
+    
+}
+
+.card-deck{
+    display: block;
+}
+}
